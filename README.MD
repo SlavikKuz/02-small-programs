@@ -2,4 +2,9 @@ Hi!
 
 This is my list of tiny projects for fun :)
 
-1. Calculator. Lambda expressions, console app.
+### 00. Calculator. Lambda expressions, console app.
+
+### 01. The Matrix. Threads.
+![The Matrix](/Screenshots/01.png?raw=true "The Matrix")
+
+### 02.
