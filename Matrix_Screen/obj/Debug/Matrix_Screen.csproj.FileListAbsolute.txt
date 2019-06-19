@@ -1,0 +1,6 @@
+C:\Users\slavi\source\repos\TinyBits\Matrix_Screen\bin\Debug\Matrix_Screen.exe.config
+C:\Users\slavi\source\repos\TinyBits\Matrix_Screen\bin\Debug\Matrix_Screen.exe
+C:\Users\slavi\source\repos\TinyBits\Matrix_Screen\bin\Debug\Matrix_Screen.pdb
+C:\Users\slavi\source\repos\TinyBits\Matrix_Screen\obj\Debug\Matrix_Screen.csproj.CoreCompileInputs.cache
+C:\Users\slavi\source\repos\TinyBits\Matrix_Screen\obj\Debug\Matrix_Screen.exe
+C:\Users\slavi\source\repos\TinyBits\Matrix_Screen\obj\Debug\Matrix_Screen.pdb
