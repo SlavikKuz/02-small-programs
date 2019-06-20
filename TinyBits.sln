@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "The_Matrix_Threads", "The_M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrix_Screen", "Matrix_Screen\Matrix_Screen.csproj", "{56D2546C-EEFB-4F9E-BA26-D7E92DD7861E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "The_Pythons_Game_Threads", "The_Pythons_Game_Threads", "{82889BE4-DC72-4539-9892-43F3B57AD050}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PythonsGame", "PythonsGame\PythonsGame.csproj", "{99EA89D9-1A1A-4762-92DA-934F941599E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{56D2546C-EEFB-4F9E-BA26-D7E92DD7861E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56D2546C-EEFB-4F9E-BA26-D7E92DD7861E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56D2546C-EEFB-4F9E-BA26-D7E92DD7861E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99EA89D9-1A1A-4762-92DA-934F941599E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99EA89D9-1A1A-4762-92DA-934F941599E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99EA89D9-1A1A-4762-92DA-934F941599E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99EA89D9-1A1A-4762-92DA-934F941599E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{6928AFB7-9551-40A8-9EDE-5260B99662D5} = {934D0444-1CB1-4682-9303-3AE070A38C23}
 		{56D2546C-EEFB-4F9E-BA26-D7E92DD7861E} = {CFF0AFD4-9D09-4C7E-BAEF-2EDBDEDA9760}
+		{99EA89D9-1A1A-4762-92DA-934F941599E4} = {82889BE4-DC72-4539-9892-43F3B57AD050}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81201A5A-8C2C-4C32-A061-787643C55250}

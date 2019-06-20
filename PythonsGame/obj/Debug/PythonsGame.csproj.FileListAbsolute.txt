@@ -1,0 +1,7 @@
+C:\Users\slavi\source\repos\TinyBits\PythonsGame\bin\Debug\PythonsGame.exe.config
+C:\Users\slavi\source\repos\TinyBits\PythonsGame\bin\Debug\PythonsGame.exe
+C:\Users\slavi\source\repos\TinyBits\PythonsGame\bin\Debug\PythonsGame.pdb
+C:\Users\slavi\source\repos\TinyBits\PythonsGame\obj\Debug\PythonsGame.csprojAssemblyReference.cache
+C:\Users\slavi\source\repos\TinyBits\PythonsGame\obj\Debug\PythonsGame.csproj.CoreCompileInputs.cache
+C:\Users\slavi\source\repos\TinyBits\PythonsGame\obj\Debug\PythonsGame.exe
+C:\Users\slavi\source\repos\TinyBits\PythonsGame\obj\Debug\PythonsGame.pdb
