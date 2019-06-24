@@ -1,0 +1,9 @@
+c:\users\slavi\source\repos\Deikstra\Deikstra\bin\Release\Deikstra.exe.config
+c:\users\slavi\source\repos\Deikstra\Deikstra\bin\Release\Deikstra.exe
+c:\users\slavi\source\repos\Deikstra\Deikstra\bin\Release\Deikstra.pdb
+c:\users\slavi\source\repos\Deikstra\Deikstra\obj\Release\Deikstra.Form1.resources
+c:\users\slavi\source\repos\Deikstra\Deikstra\obj\Release\Deikstra.Properties.Resources.resources
+c:\users\slavi\source\repos\Deikstra\Deikstra\obj\Release\Deikstra.csproj.GenerateResource.cache
+c:\users\slavi\source\repos\Deikstra\Deikstra\obj\Release\Deikstra.csproj.CoreCompileInputs.cache
+c:\users\slavi\source\repos\Deikstra\Deikstra\obj\Release\Deikstra.exe
+c:\users\slavi\source\repos\Deikstra\Deikstra\obj\Release\Deikstra.pdb

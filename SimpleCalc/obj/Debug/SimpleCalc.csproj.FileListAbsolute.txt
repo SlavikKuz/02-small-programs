@@ -1,7 +1,0 @@
-c:\Users\slavi\source\repos\TinyBits\SimpleCalc\bin\Debug\SimpleCalc.exe.config
-c:\Users\slavi\source\repos\TinyBits\SimpleCalc\bin\Debug\SimpleCalc.exe
-c:\Users\slavi\source\repos\TinyBits\SimpleCalc\bin\Debug\SimpleCalc.pdb
-c:\Users\slavi\source\repos\TinyBits\SimpleCalc\obj\Debug\SimpleCalc.csprojAssemblyReference.cache
-c:\Users\slavi\source\repos\TinyBits\SimpleCalc\obj\Debug\SimpleCalc.csproj.CoreCompileInputs.cache
-c:\Users\slavi\source\repos\TinyBits\SimpleCalc\obj\Debug\SimpleCalc.exe
-c:\Users\slavi\source\repos\TinyBits\SimpleCalc\obj\Debug\SimpleCalc.pdb

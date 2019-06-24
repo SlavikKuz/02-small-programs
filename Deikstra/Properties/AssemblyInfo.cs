@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SimpleCalc")]
+[assembly: AssemblyTitle("Deikstra")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SimpleCalc")]
+[assembly: AssemblyProduct("Deikstra")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("6928afb7-9551-40a8-9ede-5260b99662d5")]
+[assembly: Guid("ed119ba8-a4ef-4e17-87ab-22366ac29c0e")]
 
 // Version information for an assembly consists of the following four values:
 //
