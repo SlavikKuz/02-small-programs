@@ -31,10 +31,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.textWords = new System.Windows.Forms.TextBox();
             this.buttonPalindromes = new System.Windows.Forms.Button();
-            this.buttonFind = new System.Windows.Forms.Button();
             this.textLetters = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.labelNumberWords = new System.Windows.Forms.Label();
+            this.buttonAnagram = new System.Windows.Forms.Button();
+            this.buttonFind = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textWords
@@ -61,16 +62,6 @@
             this.buttonPalindromes.UseVisualStyleBackColor = true;
             this.buttonPalindromes.Click += new System.EventHandler(this.buttonPalindromes_Click);
             // 
-            // buttonFind
-            // 
-            this.buttonFind.Location = new System.Drawing.Point(12, 242);
-            this.buttonFind.Name = "buttonFind";
-            this.buttonFind.Size = new System.Drawing.Size(210, 55);
-            this.buttonFind.TabIndex = 2;
-            this.buttonFind.Text = "Go find!";
-            this.buttonFind.UseVisualStyleBackColor = true;
-            this.buttonFind.Click += new System.EventHandler(this.buttonSimple_Click);
-            // 
             // textLetters
             // 
             this.textLetters.Font = new System.Drawing.Font("Lucida Console", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -78,7 +69,6 @@
             this.textLetters.Name = "textLetters";
             this.textLetters.Size = new System.Drawing.Size(210, 27);
             this.textLetters.TabIndex = 3;
-            this.textLetters.Text = "no";
             // 
             // label1
             // 
@@ -99,11 +89,32 @@
             this.labelNumberWords.TabIndex = 5;
             this.labelNumberWords.Text = "Found:";
             // 
+            // buttonAnagram
+            // 
+            this.buttonAnagram.Location = new System.Drawing.Point(12, 74);
+            this.buttonAnagram.Name = "buttonAnagram";
+            this.buttonAnagram.Size = new System.Drawing.Size(210, 55);
+            this.buttonAnagram.TabIndex = 7;
+            this.buttonAnagram.Text = "Anagrammes";
+            this.buttonAnagram.UseVisualStyleBackColor = true;
+            this.buttonAnagram.Click += new System.EventHandler(this.buttonAnagram_Click);
+            // 
+            // buttonFind
+            // 
+            this.buttonFind.Location = new System.Drawing.Point(12, 242);
+            this.buttonFind.Name = "buttonFind";
+            this.buttonFind.Size = new System.Drawing.Size(210, 55);
+            this.buttonFind.TabIndex = 2;
+            this.buttonFind.Text = "Go find!";
+            this.buttonFind.UseVisualStyleBackColor = true;
+            this.buttonFind.Click += new System.EventHandler(this.buttonSimple_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(659, 544);
+            this.Controls.Add(this.buttonAnagram);
             this.Controls.Add(this.labelNumberWords);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textLetters);
@@ -123,10 +134,11 @@
 
         private System.Windows.Forms.TextBox textWords;
         private System.Windows.Forms.Button buttonPalindromes;
-        private System.Windows.Forms.Button buttonFind;
         private System.Windows.Forms.TextBox textLetters;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label labelNumberWords;
+        private System.Windows.Forms.Button buttonAnagram;
+        private System.Windows.Forms.Button buttonFind;
     }
 }
 
