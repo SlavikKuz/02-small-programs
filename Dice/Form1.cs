@@ -65,6 +65,8 @@ namespace Dice
                 return;
             }
 
+            //try catch needed
+
             box1.Image = Box(a);
             box2.Image = Box(b);
         }
