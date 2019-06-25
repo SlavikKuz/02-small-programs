@@ -1,0 +1,10 @@
+C:\Users\slavi\source\repos\TinyBits\Dice\bin\Debug\Dice.exe.config
+C:\Users\slavi\source\repos\TinyBits\Dice\bin\Debug\Dice.exe
+C:\Users\slavi\source\repos\TinyBits\Dice\bin\Debug\Dice.pdb
+C:\Users\slavi\source\repos\TinyBits\Dice\obj\Debug\Dice.csprojAssemblyReference.cache
+C:\Users\slavi\source\repos\TinyBits\Dice\obj\Debug\Dice.Form1.resources
+C:\Users\slavi\source\repos\TinyBits\Dice\obj\Debug\Dice.Properties.Resources.resources
+C:\Users\slavi\source\repos\TinyBits\Dice\obj\Debug\Dice.csproj.GenerateResource.cache
+C:\Users\slavi\source\repos\TinyBits\Dice\obj\Debug\Dice.csproj.CoreCompileInputs.cache
+C:\Users\slavi\source\repos\TinyBits\Dice\obj\Debug\Dice.exe
+C:\Users\slavi\source\repos\TinyBits\Dice\obj\Debug\Dice.pdb

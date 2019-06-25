@@ -1,23 +1,23 @@
 #### Hi! This is a set of my tiny projects just for fun :)
 
-#### 00. Polish prefix notation/Deikstra. 
+#### 00. Polish prefix notation/Deikstra
 
 <img src="/Screenshots/00.PNG?raw=true" width="160"/>
 
-A mathematical notation in which operators precede their operands
+A mathematical notation in which operators precede their operands.
 
 #### 01. The Matrix. *Threads*
 
 <img src="/Screenshots/01.PNG?raw=true" width="160"/>
 
-Chains of symbols run slowly down on the screen
+Chains of symbols run slowly down on the screen.
 
 #### 02. The Pythons. *Threads*
 
 <img src="/Screenshots/02.PNG?raw=true" width="160"/>
 
-Multithread simulation. When a python eats a hare *"*, it grows. 
-When head is stuck, the python starves and loses length. If python eats poison *+*, it dies.
+Multithread simulation. When a python eats a hare ("), it grows. 
+When head is stuck, the python starves and loses length. If python eats poison (+), it dies.
 
 #### 03. Scrabble. *Arrays*
 
@@ -25,9 +25,38 @@ When head is stuck, the python starves and loses length. If python eats poison *
 
 Picks up words for a set of letters, finds palindromes and anagrammes in the library.
 
-#### 04. Pomodoro. *Threads*
+#### 04. Pomodoro. *Threads* //developping
 
 <img src="/Screenshots/04.PNG?raw=true" width="160"/>
 
 One can take 2 pomodoros a day. Each pomodoro is 3 sections for 45 mins, and 15 min pauses inbetween.
 
+#### 05. Dice. *Delegates* and *Threads*
+
+<img src="/Screenshots/05.PNG?raw=true" width="160"/>
+
+Throwing 2 dice every 1 sec.
+
+#### 06. 2048/Game //developping
+
+<img src="/Screenshots/06.PNG?raw=true" width="160"/>
+
+Simple WinForm game.
+
+#### 07. NotePad //developping
+
+<img src="/Screenshots/07.PNG?raw=true" width="160"/>
+
+Text editor/notepad.
+
+#### 08. PinPong Game //developping
+
+<img src="/Screenshots/08.PNG?raw=true" width="160"/>
+
+Simple PinPong game.
+
+#### 09. Webscrapper. *Regular expressions* //developping
+
+<img src="/Screenshots/09.PNG?raw=true" width="160"/>
+
+Crapping info from the page.
