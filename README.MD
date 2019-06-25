@@ -37,11 +37,11 @@ One can take 2 pomodoros a day. Each pomodoro is 3 sections for 45 mins, and 15 
 
 Throwing 2 dice every 1 sec.
 
-#### 06. 2048/Game //developping
+#### 06. 2048, The Game
 
 <img src="/Screenshots/06.PNG?raw=true" width="160"/>
 
-Simple WinForm game.
+Moves: Left, Right, Up, Down.
 
 #### 07. NotePad //developping
 
@@ -54,9 +54,3 @@ Text editor/notepad.
 <img src="/Screenshots/08.PNG?raw=true" width="160"/>
 
 Simple PinPong game.
-
-#### 09. Webscrapper. *Regular expressions* //developping
-
-<img src="/Screenshots/09.PNG?raw=true" width="160"/>
-
-Crapping info from the page.
