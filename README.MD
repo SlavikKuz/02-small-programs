@@ -1,4 +1,4 @@
-#### Hi! This is a set of my tiny projects just for fun :)
+### Hi! This is a set of my tiny projects just for fun :)
 
 ### 00. Polish prefix notation/Deikstra
 
@@ -43,7 +43,7 @@ Throwing 2 dice every 1 sec.
 
 Moves: Left, Right, Up, Down.
 
-### 07. NotePad //developping
+### 07. Simple NotePad *WPF*
 
 <img src="/Screenshots/07.PNG?raw=true" width="160"/>
 

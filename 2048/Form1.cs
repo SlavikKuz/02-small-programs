@@ -25,7 +25,6 @@ namespace _2048
             InitializeComponent();
             InitBackColors();
             InitLabels();
-            int i = 2;
             logic = new Logic(size, Show);
             logic.InitGame();
         }
