@@ -1,0 +1,10 @@
+C:\Users\slavi\source\repos\TinyBits\PingPong\bin\Debug\PingPong.exe.config
+C:\Users\slavi\source\repos\TinyBits\PingPong\bin\Debug\PingPong.exe
+C:\Users\slavi\source\repos\TinyBits\PingPong\bin\Debug\PingPong.pdb
+C:\Users\slavi\source\repos\TinyBits\PingPong\obj\Debug\PingPong.csprojAssemblyReference.cache
+C:\Users\slavi\source\repos\TinyBits\PingPong\obj\Debug\PingPong.PingPong.resources
+C:\Users\slavi\source\repos\TinyBits\PingPong\obj\Debug\PingPong.Properties.Resources.resources
+C:\Users\slavi\source\repos\TinyBits\PingPong\obj\Debug\PingPong.csproj.GenerateResource.cache
+C:\Users\slavi\source\repos\TinyBits\PingPong\obj\Debug\PingPong.csproj.CoreCompileInputs.cache
+C:\Users\slavi\source\repos\TinyBits\PingPong\obj\Debug\PingPong.exe
+C:\Users\slavi\source\repos\TinyBits\PingPong\obj\Debug\PingPong.pdb
