@@ -99,5 +99,23 @@
   <ItemGroup>
     <Resource Include="Resources\note.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\new.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\open.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\save.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\exit.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\copy.ico" />
+    <Resource Include="Resources\cut.ico" />
+    <Resource Include="Resources\font.ico" />
+    <Resource Include="Resources\paste.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

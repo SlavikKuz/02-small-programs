@@ -7,24 +7,66 @@
         mc:Ignorable="d"
         Title="NotePad" Height="450" Width="800" ResizeMode="NoResize" 
         Topmost="False" WindowState="Normal" Icon="./Resources/note.png">
-    <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="34*"/>
-            <ColumnDefinition Width="125*"/>
-        </Grid.ColumnDefinitions>
-        <ScrollViewer Margin="10,11,28,264">
-            <Grid>
-                <Button Content="Button" HorizontalAlignment="Left" Margin="0,0,-17.333,0" VerticalAlignment="Top" Width="84" Height="27"/>
-                <Button Content="Button" HorizontalAlignment="Left" Margin="0,52,-17.333,0" VerticalAlignment="Top" Width="84" Height="27"/>
-                <Button Content="Button" HorizontalAlignment="Left" Margin="0,104,-17.333,0" VerticalAlignment="Top" Width="84" Height="27"/>
-                <Button Content="Button" HorizontalAlignment="Left" Margin="0,157,-17.333,0" VerticalAlignment="Top" Width="84" Height="27"/>
-                <Button Content="Button" HorizontalAlignment="Left" Margin="0,200,-17.333,0" VerticalAlignment="Top" Width="84" Height="27"/>
-                <Button Content="Button" HorizontalAlignment="Left" Margin="0,252,-17.333,0" VerticalAlignment="Top" Width="84" Height="27"/>
-                <Button Content="Button" HorizontalAlignment="Left" Margin="0,304,-17.333,0" VerticalAlignment="Top" Width="84" Height="27"/>
-                <Button Content="Button" HorizontalAlignment="Left" Margin="0,357,-17.333,0" VerticalAlignment="Top" Width="84" Height="27"/>
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem x:Name="menuFile" Header="File">
+                <MenuItem x:Name="createNewFile" Header="New File" Click="CreateNewFile_Click">
+                    <MenuItem.Icon>
+                        <Image Source="./Resources/new.ico"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem x:Name="openNewFile" Header="Open File" Click="OpenNewFile_Click">
+                    <MenuItem.Icon>
+                        <Image Source="./Resources/open.ico"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem x:Name="saveNewFile" Header="Save File" Click="SaveNewFile_Click">
+                    <MenuItem.Icon>
+                        <Image Source="./Resources/save.ico"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem x:Name="exitProgram" Header="Exit" Click="ExitProgram_Click">
+                    <MenuItem.Icon>
+                        <Image Source="./Resources/exit.ico"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem x:Name="menuEdit" Header="Edit">
 
-            </Grid>
-        </ScrollViewer>
+                <MenuItem x:Name="selectFont" Header="Font">
+                    <MenuItem.Icon>
+                        <Image Source="./Resources/font.ico"/>
+                    </MenuItem.Icon>
+                    <MenuItem x:Name="timesNewRomanFont" Header="Times new Roman" IsCheckable="True"
+                              StaysOpenOnClick="True" Click="TimesNewRomanFont_Click"></MenuItem>
+                    <MenuItem x:Name="verdanaFont" Header="Verdana" IsCheckable="True"
+                              StaysOpenOnClick="True" Click="VerdanaFont_Click"></MenuItem>
+                </MenuItem>
+                <Separator/>
+                <MenuItem x:Name="copyText" Header="Copy"
+                        Command="ApplicationCommands.Copy"
+                        InputGestureText="Ctrl+C">
+                    <MenuItem.Icon>
+                        <Image Source="./Resources/copy.ico"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem x:Name="pateText" Header="Paste"
+                        Command="ApplicationCommands.Paste"
+                        InputGestureText="Ctrl+V">
+                    <MenuItem.Icon>
+                        <Image Source="./Resources/paste.ico"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem x:Name="cutText" Header="Cut"
+                        Command="ApplicationCommands.Cut"
+                        InputGestureText="Ctrl+X">
+                    <MenuItem.Icon>
+                        <Image Source="./Resources/cut.ico"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+        </Menu>
 
-    </Grid>
+        <TextBox x:Name="TextBox" Height="420" Width="780"></TextBox>
+    </DockPanel>
 </Window>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -25,6 +26,40 @@ namespace NotePad
             InitializeComponent();
 
             this.WindowStartupLocation = WindowStartupLocation.CenterScreen;
+        }
+
+        private void ExitProgram_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void SaveNewFile_Click(object sender, RoutedEventArgs e)
+        {
+            SaveFileDialog sfd = new SaveFileDialog();
+            sfd.ShowDialog();
+        }
+
+        private void OpenNewFile_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog ofd = new OpenFileDialog();
+            ofd.ShowDialog();
+        }
+
+        private void CreateNewFile_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void TimesNewRomanFont_Click(object sender, RoutedEventArgs e)
+        {
+            TextBox.FontFamily = new FontFamily("Times New Roman");
+            verdanaFont.IsChecked = false;
+        }
+
+        private void VerdanaFont_Click(object sender, RoutedEventArgs e)
+        {
+            TextBox.FontFamily = new FontFamily("Verdana");
+            timesNewRomanFont.IsChecked = false;
         }
     }
 }
