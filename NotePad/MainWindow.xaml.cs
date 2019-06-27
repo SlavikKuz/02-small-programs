@@ -1,6 +1,7 @@
 ﻿using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -35,19 +36,49 @@ namespace NotePad
 
         private void SaveNewFile_Click(object sender, RoutedEventArgs e)
         {
-            SaveFileDialog sfd = new SaveFileDialog();
-            sfd.ShowDialog();
+            SaveFile();
         }
 
-        private void OpenNewFile_Click(object sender, RoutedEventArgs e)
+        private void SaveFile()
+        {
+            SaveFileDialog sfd = new SaveFileDialog();
+            bool? res = sfd.ShowDialog(); //bool can be null
+
+            if (res != false)
+            {
+
+                using (Stream s = File.Open(sfd.FileName, FileMode.OpenOrCreate))
+                {
+                    using (StreamWriter sw = new StreamWriter(s))
+                    {
+                        sw.Write(TextBox.Text);
+                    }
+                }
+            }
+        }
+
+private void OpenNewFile_Click(object sender, RoutedEventArgs e)
         {
             OpenFileDialog ofd = new OpenFileDialog();
-            ofd.ShowDialog();
+            bool? res = ofd.ShowDialog();
+            
+            if (res != false)
+            {
+                Stream myStream;
+                if ((myStream = ofd.OpenFile()) != null)
+                {
+                    string fileName = ofd.FileName;
+                    string fileText = File.ReadAllText(fileName);
+                    TextBox.Text = fileText;
+                }
+            }
         }
 
         private void CreateNewFile_Click(object sender, RoutedEventArgs e)
         {
-
+            if(TextBox.Text != "")
+                SaveFile();
+            TextBox.Text = "";
         }
 
         private void TimesNewRomanFont_Click(object sender, RoutedEventArgs e)

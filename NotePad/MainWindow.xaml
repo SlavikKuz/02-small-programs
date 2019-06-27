@@ -82,7 +82,7 @@
                     <Image Source="./Resources/paste.ico" Height="20" Width="20"></Image>
                 </Button>
 
-                <Label> Font size:</Label>
+                <Label>Font size:</Label>
                 <ComboBox x:Name="selectFontSize"
                           SelectionChanged="SelectFontSize_SelectionChanged"
                           >
@@ -96,10 +96,25 @@
                     <ComboBoxItem>28</ComboBoxItem>
                     <ComboBoxItem>36</ComboBoxItem>
                 </ComboBox>
-                
+
             </ToolBar>
         </ToolBarTray>
+        <TabControl Height="370">
+            <TabItem Header="Sign in">
+                <Grid Background="#3588b8">
+                    <TextBox     x:Name="loginField" Background="#d5e6f0" Width="160" Height="20" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="244,110,244.667,0"/>
+                    <PasswordBox x:Name="passField"  Background="#d5e6f0" Width="160" Height="20" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="244,150,244.667,0"/>
+                    <Label x:Name="label" Content="Sign in:" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="315,52,315,0" FontSize="22"/>
+                    <Button x:Name="regButton" Content="Go!" HorizontalAlignment="Center" VerticalAlignment="Top" Width="75" Height="20" Margin="353,198,360.667,0"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Editor">
+                <Grid Background="#FFE5E5E5">
+                    <TextBox x:Name="TextBox" Width="782" FontSize="14"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
 
-        <TextBox x:Name="TextBox" Height="420" Width="780" Margin="0,5,0,1"  FontSize="14"></TextBox>
+
     </DockPanel>
 </Window>
