@@ -13,3 +13,5 @@ C:\Users\slavi\source\repos\TinyBits\NotePad\obj\Debug\NotePad.csproj.GenerateRe
 C:\Users\slavi\source\repos\TinyBits\NotePad\obj\Debug\NotePad.csproj.CoreCompileInputs.cache
 C:\Users\slavi\source\repos\TinyBits\NotePad\obj\Debug\NotePad.exe
 C:\Users\slavi\source\repos\TinyBits\NotePad\obj\Debug\NotePad.pdb
+c:\Users\slavi\source\repos\TinyBits\NotePad\obj\Debug\AuthPage.g.cs
+c:\Users\slavi\source\repos\TinyBits\NotePad\obj\Debug\AuthPage.baml

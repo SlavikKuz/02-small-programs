@@ -105,10 +105,10 @@
                     <TextBox     x:Name="loginField" Background="#d5e6f0" Width="160" Height="20" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="244,110,244.667,0"/>
                     <PasswordBox x:Name="passField"  Background="#d5e6f0" Width="160" Height="20" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="244,150,244.667,0"/>
                     <Label x:Name="label" Content="Sign in:" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="315,52,315,0" FontSize="22"/>
-                    <Button x:Name="regButton" Content="Go!" HorizontalAlignment="Center" VerticalAlignment="Top" Width="75" Height="20" Margin="353,198,360.667,0"/>
+                    <Button x:Name="regButton" Content="Go!" HorizontalAlignment="Center" VerticalAlignment="Top" Width="75" Height="20" Margin="357,198,356.667,0" Click="RegButton_Click"/>
                 </Grid>
             </TabItem>
-            <TabItem Header="Editor">
+            <TabItem x:Name="Editor" Header="Editor">
                 <Grid Background="#FFE5E5E5">
                     <TextBox x:Name="TextBox" Width="782" FontSize="14"/>
                 </Grid>

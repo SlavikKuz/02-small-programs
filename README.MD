@@ -43,11 +43,11 @@ Throwing 2 dice every 1 sec.
 
 Moves: Left, Right, Up, Down.
 
-### 07. Simple NotePad. *WPF*
+### 07. Simple NotePad. *WPF/SQL connection*
 
 <img src="/Screenshots/07.PNG?raw=true" width="160"/>
 
-Text editor/notepad.
+Text editor/notepad with sign-in form.
 
 ### 08. PinPong, The Game
 

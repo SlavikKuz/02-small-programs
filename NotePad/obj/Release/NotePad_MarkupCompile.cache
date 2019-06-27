@@ -4,15 +4,15 @@
 winexe
 C#
 .cs
-c:\Users\slavi\source\repos\TinyBits\NotePad\obj\Debug\
+c:\Users\slavi\source\repos\TinyBits\NotePad\obj\Release\
 NotePad
 none
 false
-DEBUG;TRACE
+TRACE
 c:\Users\slavi\source\repos\TinyBits\NotePad\App.xaml
 2-1959254418
 
-10-1857127043
+61908286018
 15-1934841504
 AuthPage.xaml;MainWindow.xaml;
 

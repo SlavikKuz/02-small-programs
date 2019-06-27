@@ -1,6 +1,8 @@
 ﻿using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
+using System.Data.SqlClient;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -109,6 +111,60 @@ private void OpenNewFile_Click(object sender, RoutedEventArgs e)
                 case "24": TextBox.FontSize = 24; break;
                 case "28": TextBox.FontSize = 28; break;
                 case "36": TextBox.FontSize = 36; break;
+            }
+        }
+
+        private void RegButton_Click(object sender, RoutedEventArgs e)
+        {
+            string connectionString = ConfigurationManager.AppSettings["connectionString"];
+
+            SqlConnection sql = new SqlConnection(connectionString);
+
+            try
+            {
+                if (sql.State == System.Data.ConnectionState.Closed)
+                    sql.Open();
+
+                string query = "SELECT COUNT(1) " +
+                    "FROM Users " +
+                    "WHERE login = @login " +
+                    "AND password = @pass";
+
+                SqlCommand sqlCom = new SqlCommand(query, sql);
+                sqlCom.CommandType = System.Data.CommandType.Text;
+                sqlCom.Parameters.Add("@login", loginField.Text);
+                sqlCom.Parameters.Add("@pass", passField.Password);
+
+                int countUser = Convert.ToInt32(sqlCom.ExecuteScalar());
+
+                if(countUser == 0)
+                {
+                    query = "INSERT INTO Users (login, password) VALUES (@login, @pass)";
+                    SqlCommand com = new SqlCommand(query, sql);
+                    com.CommandType = System.Data.CommandType.Text;
+                    com.Parameters.Add("@login", loginField.Text);
+                    com.Parameters.Add("@pass", passField.Password);
+
+                    com.ExecuteNonQuery();
+                    MessageBox.Show("Your credentials have been added!");
+                }
+                else
+                {
+                    MessageBox.Show("Wellcome!");
+                    //AuthPage authPage = new AuthPage();
+                    //authPage.Show();
+
+                    //App.Current.MainWindow.Hide();
+                }
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                sql.Close();
             }
         }
     }

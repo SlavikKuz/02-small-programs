@@ -1,0 +1,16 @@
+c:\Users\slavi\source\repos\TinyBits\NotePad\bin\Release\NotePad.exe.config
+c:\Users\slavi\source\repos\TinyBits\NotePad\bin\Release\NotePad.exe
+c:\Users\slavi\source\repos\TinyBits\NotePad\bin\Release\NotePad.pdb
+c:\Users\slavi\source\repos\TinyBits\NotePad\obj\Release\AuthPage.g.cs
+c:\Users\slavi\source\repos\TinyBits\NotePad\obj\Release\MainWindow.g.cs
+c:\Users\slavi\source\repos\TinyBits\NotePad\obj\Release\App.g.cs
+c:\Users\slavi\source\repos\TinyBits\NotePad\obj\Release\NotePad_MarkupCompile.cache
+c:\Users\slavi\source\repos\TinyBits\NotePad\obj\Release\NotePad_MarkupCompile.lref
+c:\Users\slavi\source\repos\TinyBits\NotePad\obj\Release\AuthPage.baml
+c:\Users\slavi\source\repos\TinyBits\NotePad\obj\Release\MainWindow.baml
+c:\Users\slavi\source\repos\TinyBits\NotePad\obj\Release\NotePad.g.resources
+c:\Users\slavi\source\repos\TinyBits\NotePad\obj\Release\NotePad.Properties.Resources.resources
+c:\Users\slavi\source\repos\TinyBits\NotePad\obj\Release\NotePad.csproj.GenerateResource.cache
+c:\Users\slavi\source\repos\TinyBits\NotePad\obj\Release\NotePad.csproj.CoreCompileInputs.cache
+c:\Users\slavi\source\repos\TinyBits\NotePad\obj\Release\NotePad.exe
+c:\Users\slavi\source\repos\TinyBits\NotePad\obj\Release\NotePad.pdb
