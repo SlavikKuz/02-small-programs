@@ -61,5 +61,24 @@ namespace NotePad
             TextBox.FontFamily = new FontFamily("Verdana");
             timesNewRomanFont.IsChecked = false;
         }
+
+        private void SelectFontSize_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            string fontSize = selectFontSize.SelectedItem.ToString();
+            fontSize = fontSize.Substring(fontSize.Length - 2);
+
+            switch (fontSize)
+            {
+                case  "8": TextBox.FontSize = 8; break;
+                case "10": TextBox.FontSize = 10; break;
+                case "12": TextBox.FontSize = 12; break;
+                case "14": TextBox.FontSize = 14; break;
+                case "16": TextBox.FontSize = 16; break;
+                case "20": TextBox.FontSize = 20; break;
+                case "24": TextBox.FontSize = 24; break;
+                case "28": TextBox.FontSize = 28; break;
+                case "36": TextBox.FontSize = 36; break;
+            }
+        }
     }
 }
