@@ -1,0 +1,10 @@
+C:\Users\slavi\source\repos\TinyBits\Archivator\bin\Debug\Archivator.exe.config
+C:\Users\slavi\source\repos\TinyBits\Archivator\bin\Debug\Archivator.exe
+C:\Users\slavi\source\repos\TinyBits\Archivator\bin\Debug\Archivator.pdb
+C:\Users\slavi\source\repos\TinyBits\Archivator\obj\Debug\Archivator.csprojAssemblyReference.cache
+C:\Users\slavi\source\repos\TinyBits\Archivator\obj\Debug\Archivator.Arch.resources
+C:\Users\slavi\source\repos\TinyBits\Archivator\obj\Debug\Archivator.Properties.Resources.resources
+C:\Users\slavi\source\repos\TinyBits\Archivator\obj\Debug\Archivator.csproj.GenerateResource.cache
+C:\Users\slavi\source\repos\TinyBits\Archivator\obj\Debug\Archivator.csproj.CoreCompileInputs.cache
+C:\Users\slavi\source\repos\TinyBits\Archivator\obj\Debug\Archivator.exe
+C:\Users\slavi\source\repos\TinyBits\Archivator\obj\Debug\Archivator.pdb
