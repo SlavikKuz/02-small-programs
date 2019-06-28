@@ -32,7 +32,8 @@
             this.menuGame = new System.Windows.Forms.MenuStrip();
             this.gameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStartHuman = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStartComp = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuComputerX = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuComputerO = new System.Windows.Forms.ToolStripMenuItem();
             this.menuGameS = new System.Windows.Forms.ToolStripSeparator();
             this.menuExit = new System.Windows.Forms.ToolStripMenuItem();
             this.menuHelp = new System.Windows.Forms.ToolStripMenuItem();
@@ -77,7 +78,8 @@
             // 
             this.gameToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuStartHuman,
-            this.menuStartComp,
+            this.menuComputerX,
+            this.menuComputerO,
             this.menuGameS,
             this.menuExit});
             this.gameToolStripMenuItem.Name = "gameToolStripMenuItem";
@@ -87,26 +89,33 @@
             // menuStartHuman
             // 
             this.menuStartHuman.Name = "menuStartHuman";
-            this.menuStartHuman.Size = new System.Drawing.Size(198, 30);
+            this.menuStartHuman.Size = new System.Drawing.Size(252, 30);
             this.menuStartHuman.Text = "2 players";
             this.menuStartHuman.Click += new System.EventHandler(this.menuStartHuman_Click);
             // 
-            // menuStartComp
+            // menuComputerX
             // 
-            this.menuStartComp.Name = "menuStartComp";
-            this.menuStartComp.Size = new System.Drawing.Size(198, 30);
-            this.menuStartComp.Text = "vs Computer";
-            this.menuStartComp.Click += new System.EventHandler(this.menuStartComp_Click);
+            this.menuComputerX.Name = "menuComputerX";
+            this.menuComputerX.Size = new System.Drawing.Size(252, 30);
+            this.menuComputerX.Text = "Computer \"X\"";
+            this.menuComputerX.Click += new System.EventHandler(this.menuComputerX_Click);
+            // 
+            // menuComputerO
+            // 
+            this.menuComputerO.Name = "menuComputerO";
+            this.menuComputerO.Size = new System.Drawing.Size(252, 30);
+            this.menuComputerO.Text = "Computer \"O\"";
+            this.menuComputerO.Click += new System.EventHandler(this.menuStartComp_Click);
             // 
             // menuGameS
             // 
             this.menuGameS.Name = "menuGameS";
-            this.menuGameS.Size = new System.Drawing.Size(195, 6);
+            this.menuGameS.Size = new System.Drawing.Size(249, 6);
             // 
             // menuExit
             // 
             this.menuExit.Name = "menuExit";
-            this.menuExit.Size = new System.Drawing.Size(198, 30);
+            this.menuExit.Size = new System.Drawing.Size(252, 30);
             this.menuExit.Text = "Exit";
             this.menuExit.Click += new System.EventHandler(this.menuExit_Click);
             // 
@@ -282,8 +291,10 @@
             this.ClientSize = new System.Drawing.Size(514, 504);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.menuGame);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuGame;
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Tic Tac Toe";
             this.menuGame.ResumeLayout(false);
@@ -308,7 +319,7 @@
         private System.Windows.Forms.MenuStrip menuGame;
         private System.Windows.Forms.ToolStripMenuItem gameToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem menuStartHuman;
-        private System.Windows.Forms.ToolStripMenuItem menuStartComp;
+        private System.Windows.Forms.ToolStripMenuItem menuComputerO;
         private System.Windows.Forms.ToolStripSeparator menuGameS;
         private System.Windows.Forms.ToolStripMenuItem menuExit;
         private System.Windows.Forms.ToolStripMenuItem menuHelp;
@@ -324,6 +335,7 @@
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.ToolStripMenuItem menuComputerX;
     }
 }
 

@@ -29,7 +29,7 @@ Picks up words for a set of letters, finds palindromes and anagrammes in the lib
 
 <img src="/Screenshots/04.PNG?raw=true" width="160"/>
 
-Simple Webform game 
+Player VS Player or Simple AI.
 
 ### 05. Dice. *Delegates* and *Threads*
 

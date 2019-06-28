@@ -13,6 +13,7 @@ namespace TicTacToe
     public partial class Form1 : Form
     {
         Logic logic = new Logic();
+        bool useComp = false;
 
         public Form1()
         {
@@ -73,7 +74,29 @@ namespace TicTacToe
                     Properties.Resources.o;
 
                 if (logic.finish != "play")
+                {
                     GameOver();
+                    return;
+                }
+
+                if(useComp)
+                    CompMakeTurn();
+            }
+        }
+
+        private void CompMakeTurn()
+        {
+            int turn = logic.turn;
+            int x, y;
+            logic.Comp(out x, out y);
+            Picture(x, y).Image = (turn == 1) ?
+                Properties.Resources.x :
+                Properties.Resources.o;
+
+            if (logic.finish != "play")
+            {
+                GameOver();
+                return;
             }
         }
 
@@ -95,7 +118,29 @@ namespace TicTacToe
 
         private void menuStartComp_Click(object sender, EventArgs e)
         {
+            useComp = true;
             StartGame();
+        }
+
+        private void menuComputerX_Click(object sender, EventArgs e)
+        {
+            useComp = true;
+            StartGame();
+            CompMakeTurn();
+        }
+
+        private PictureBox Picture(int x, int y)
+        {
+            if (x == 0 && y == 0) return pictureBox1;
+            if (x == 0 && y == 1) return pictureBox2;
+            if (x == 0 && y == 2) return pictureBox3;
+            if (x == 1 && y == 0) return pictureBox4;
+            if (x == 1 && y == 1) return pictureBox5;
+            if (x == 1 && y == 2) return pictureBox6;
+            if (x == 2 && y == 0) return pictureBox7;
+            if (x == 2 && y == 1) return pictureBox8;
+            if (x == 2 && y == 2) return pictureBox9;
+            return null;
         }
     }
 }
