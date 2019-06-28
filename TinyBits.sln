@@ -39,6 +39,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TicTacToe", "TicTacToe", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe", "TicTacToe\TicTacToe.csproj", "{905A2578-932C-421C-B733-5D164A0E76A0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Archivator", "Archivator", "{33A39169-F98E-467D-8C18-DBDDE74EAAEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archivator", "Archivator\Archivator.csproj", "{9F2AE609-A36A-4ACE-9E35-BC6FCFF5BEF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,10 @@ Global
 		{905A2578-932C-421C-B733-5D164A0E76A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{905A2578-932C-421C-B733-5D164A0E76A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{905A2578-932C-421C-B733-5D164A0E76A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F2AE609-A36A-4ACE-9E35-BC6FCFF5BEF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F2AE609-A36A-4ACE-9E35-BC6FCFF5BEF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F2AE609-A36A-4ACE-9E35-BC6FCFF5BEF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F2AE609-A36A-4ACE-9E35-BC6FCFF5BEF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -95,6 +103,7 @@ Global
 		{8F56505A-F6A9-4E06-8A12-78E93605BE2F} = {0F051EEC-3898-4EE4-9872-A7BA3A906779}
 		{5BE9D016-EDA6-4AAA-8699-A574CAEDC10F} = {AD8041EE-C9E4-4218-812D-A380D0230B14}
 		{905A2578-932C-421C-B733-5D164A0E76A0} = {E1564D97-5576-429B-B1F6-91AD075C3917}
+		{9F2AE609-A36A-4ACE-9E35-BC6FCFF5BEF1} = {33A39169-F98E-467D-8C18-DBDDE74EAAEA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81201A5A-8C2C-4C32-A061-787643C55250}
