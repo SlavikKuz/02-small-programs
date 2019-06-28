@@ -25,11 +25,11 @@ When head is stuck, the python starves and loses length. If python eats poison (
 
 Picks up words for a set of letters, finds palindromes and anagrammes in the library.
 
-### 04. Pomodoro. *Threads* //developping
+### 04. Tic Tac Toe, The Game
 
 <img src="/Screenshots/04.PNG?raw=true" width="160"/>
 
-One can take 2 pomodoros a day. Each pomodoro is 3 sections for 45 mins, and 15 min pauses inbetween.
+Simple Webform game 
 
 ### 05. Dice. *Delegates* and *Threads*
 
