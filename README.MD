@@ -1,19 +1,17 @@
 ### Hi! This is a set of my tiny projects just for fun :)
 <br/>
 
-00 [Polish prefix notation/Deikstra](#00)
-
-01 [The Matrix. *Threads*](#01)
-02 [The Pythons. *Threads*](#02)
-
-03 [Scrabble](#03)
-04 [Tic Tac Toe, The Game](#04)
-05 [Dice. *Delegates* and *Threads*](#05)
-06 [2048, The Game](#06)
-07 [Simple NotePad. *WPF/SQL connection*](#07)
-08 [PinPong, The Game](#08)
-09 [Archivator. *IO, binary*](#09)
-10 [Web Srapper. *Regular Expressions*](#10)<br/>
+00 [Polish prefix notation/Deikstra ](#00)
+  01 [The Matrix. *Threads* ](#01)
+  02 [The Pythons. *Threads* ](#02)
+  03 [Scrabble ](#03)
+  04 [Tic Tac Toe, The Game ](#04)
+  05 [Dice. *Delegates* and *Threads* ](#05)
+  06 [2048, The Game ](#06)
+  07 [Simple NotePad. *WPF/SQL connection* ](#07)
+  08 [PinPong, The Game ](#08)
+  09 [Archivator. *IO, binary* ](#09)
+  10 [Web Srapper. *Regular Expressions* ](#10)<br/>
 
 
 
