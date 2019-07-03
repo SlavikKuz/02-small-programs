@@ -41,7 +41,7 @@ namespace WebScrapper.Builders
             ScrapeCriteriaParts scrapeCriteriaParts = new ScrapeCriteriaParts();
             scrapeCriteriaParts.Regex = _regex;
             scrapeCriteriaParts.RegexOption = _regexOption;
-            return this;
+            return scrapeCriteriaParts;
         }
     }
 }

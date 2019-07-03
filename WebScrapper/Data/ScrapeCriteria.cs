@@ -12,12 +12,11 @@ namespace WebScrapper.Data
         public ScrapeCriteria()
         {
             Parts = new List<ScrapeCriteriaParts>();
-
         }
 
-        public string Data { get; set; }
-        public string Regex { get; set; }
-        public RegexOptions RegexOption { get; set; }
-        public List<ScrapeCriteriaParts> Parts { get; set; } 
+        public string Data { get; set; } //data that we want to scrape
+        public string Regex { get; set; } //how to scrape it
+        public RegexOptions RegexOption { get; set; } //how regex need to behave
+        public List<ScrapeCriteriaParts> Parts { get; set; } //how deep we will go
     }
 }

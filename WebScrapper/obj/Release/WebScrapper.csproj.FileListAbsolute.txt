@@ -1,0 +1,7 @@
+c:\Users\slavi\source\repos\TinyBits\WebScrapper\bin\Release\WebScrapper.exe.config
+c:\Users\slavi\source\repos\TinyBits\WebScrapper\bin\Release\WebScrapper.exe
+c:\Users\slavi\source\repos\TinyBits\WebScrapper\bin\Release\WebScrapper.pdb
+c:\Users\slavi\source\repos\TinyBits\WebScrapper\obj\Release\WebScrapper.csprojAssemblyReference.cache
+c:\Users\slavi\source\repos\TinyBits\WebScrapper\obj\Release\WebScrapper.csproj.CoreCompileInputs.cache
+c:\Users\slavi\source\repos\TinyBits\WebScrapper\obj\Release\WebScrapper.exe
+c:\Users\slavi\source\repos\TinyBits\WebScrapper\obj\Release\WebScrapper.pdb
