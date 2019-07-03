@@ -43,11 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Builders\ScrapeCriteriaBuilder.cs" />
+    <Compile Include="Builders\ScrapeCriteriaPartBuilder.cs" />
+    <Compile Include="Data\ScrapeCriteria.cs" />
+    <Compile Include="Data\ScrapeCriteriaParts.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
