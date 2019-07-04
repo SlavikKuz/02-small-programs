@@ -4,3 +4,4 @@ c:\Users\slavi\source\repos\TinyBits\WebScrapper\bin\Debug\WebScrapper.pdb
 c:\Users\slavi\source\repos\TinyBits\WebScrapper\obj\Debug\WebScrapper.csproj.CoreCompileInputs.cache
 c:\Users\slavi\source\repos\TinyBits\WebScrapper\obj\Debug\WebScrapper.exe
 c:\Users\slavi\source\repos\TinyBits\WebScrapper\obj\Debug\WebScrapper.pdb
+c:\Users\slavi\source\repos\TinyBits\WebScrapper\obj\Debug\WebScrapper.csprojAssemblyReference.cache

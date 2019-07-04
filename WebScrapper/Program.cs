@@ -19,26 +19,20 @@ namespace WebScrapper
         {
             try
             {
-
-                //Console.WriteLine("Please enter city:");
-                //var craigslistCity = Console.ReadLine() ?? string.Empty;
-
-                //Console.WriteLine("Please select category:");
-                //var craigslistCategoryName = Console.ReadLine() ?? string.Empty;
-
+  
                 using (WebClient client = new WebClient())
                 {
                     string content = client.DownloadString($"https://www.finn.no/job/fulltime/search.html?occupation=0.23");
 
                     ScrapeCriteria scrapeCriteria = new ScrapeCriteriaBuilder().WithData(content)
-                        .WithRegex(@"<p class=.ads__unit__content__keys.>[\s\S]*<span>(.*?)<.span>")
+                        .WithRegex(@"<a id=.(.*?). href=.(.*?). class=.ads__unit__link. data-finnkode=.(.*?). data-listposition=.(.*?). (.*?) data-search-resultitem=..>\n\n(.*?)\n.(.*?)<.a>")
                         .WithRegexOptions(RegexOptions.ExplicitCapture)
                         .WithPart(new ScrapeCriteriaPartBuilder()
-                            .WithRegex(@"<p class=.ads__unit__content__keys.>[\s\S]*<span>(.*?)<.span>")//???
+                            .WithRegex(@"")//??? >\n\n(.*?)\n
                             .WithRegexOptions(RegexOptions.Singleline)
                             .Build())
                         .WithPart(new ScrapeCriteriaPartBuilder()
-                            .WithRegex(@"<p class=.ads__unit__content__keys.>[\s\S]*<span>(.*?)<.span>")//???
+                            .WithRegex(@"")//??? href=.(.*?).
                             .WithRegexOptions(RegexOptions.Singleline)
                             .Build())
                         .Build();
@@ -61,6 +55,8 @@ namespace WebScrapper
             {
                 Console.WriteLine(ex.Message);
             }
+
+            Console.ReadKey();
         }
     }
 }

@@ -1,0 +1,17 @@
+C:\Users\slavi\source\repos\TinyBits\ScraperTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\slavi\source\repos\TinyBits\ScraperTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\slavi\source\repos\TinyBits\ScraperTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\slavi\source\repos\TinyBits\ScraperTest\bin\Debug\ScraperTest.dll
+C:\Users\slavi\source\repos\TinyBits\ScraperTest\bin\Debug\ScraperTest.pdb
+C:\Users\slavi\source\repos\TinyBits\ScraperTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\slavi\source\repos\TinyBits\ScraperTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\slavi\source\repos\TinyBits\ScraperTest\bin\Debug\WebScrapper.exe
+C:\Users\slavi\source\repos\TinyBits\ScraperTest\bin\Debug\WebScrapper.pdb
+C:\Users\slavi\source\repos\TinyBits\ScraperTest\bin\Debug\WebScrapper.exe.config
+C:\Users\slavi\source\repos\TinyBits\ScraperTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\slavi\source\repos\TinyBits\ScraperTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\slavi\source\repos\TinyBits\ScraperTest\obj\Debug\ScraperTest.csprojAssemblyReference.cache
+C:\Users\slavi\source\repos\TinyBits\ScraperTest\obj\Debug\ScraperTest.csproj.CoreCompileInputs.cache
+C:\Users\slavi\source\repos\TinyBits\ScraperTest\obj\Debug\ScraperTest.csproj.CopyComplete
+C:\Users\slavi\source\repos\TinyBits\ScraperTest\obj\Debug\ScraperTest.dll
+C:\Users\slavi\source\repos\TinyBits\ScraperTest\obj\Debug\ScraperTest.pdb
