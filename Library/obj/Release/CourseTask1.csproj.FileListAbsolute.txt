@@ -1,0 +1,10 @@
+C:\Users\slavi\source\repos\CourseTask1\CourseTask1\bin\Release\CourseTask1.exe.config
+C:\Users\slavi\source\repos\CourseTask1\CourseTask1\bin\Release\CourseTask1.exe
+C:\Users\slavi\source\repos\CourseTask1\CourseTask1\bin\Release\CourseTask1.pdb
+C:\Users\slavi\source\repos\CourseTask1\CourseTask1\obj\Release\CourseTask1.csprojAssemblyReference.cache
+C:\Users\slavi\source\repos\CourseTask1\CourseTask1\obj\Release\CourseTask1.Form1.resources
+C:\Users\slavi\source\repos\CourseTask1\CourseTask1\obj\Release\CourseTask1.Properties.Resources.resources
+C:\Users\slavi\source\repos\CourseTask1\CourseTask1\obj\Release\CourseTask1.csproj.GenerateResource.cache
+C:\Users\slavi\source\repos\CourseTask1\CourseTask1\obj\Release\CourseTask1.csproj.CoreCompileInputs.cache
+C:\Users\slavi\source\repos\CourseTask1\CourseTask1\obj\Release\CourseTask1.exe
+C:\Users\slavi\source\repos\CourseTask1\CourseTask1\obj\Release\CourseTask1.pdb

@@ -12,7 +12,8 @@
   08 [PinPong, The Game  ](#08)
   09 [Archivator. *IO, binary*  ](#09)
   10 [Web Srapper. *Regular Expressions*  *In Developing now* ](#10)
-  11 [Game of Life  ](#11)<br/>
+  11 [Game of Life  ](#11)
+  12 [Small Library Database  ](#12)<br/>
 
 
 
@@ -154,22 +155,48 @@ A simple web-scrapper. It get IT jobs from Finn.no HTML page.
 This is a classical Game of Life game invited by John Conway. A living cell is blue. It survives only when surrounded by two other cells. A new cell is born if surrounded by three cells. Every cell dies when it is has less or more neighbours.
 
 Please, use the mouse to build any lifeform that you like! You can add more cells while the evolution is running :) 
-- *Fase One* - highlights the cells that are dying(red), newborn(green) and survived(blue).
-
-- *Fase Two* - finishes the turn with removing dead cells and establishing newborn and survived cells. 
-
-- *Proceed fases* - combines both fases in one step. 
-
-- *Contaminate* - randomly fills the field with live cells. 
-
-- *Clear* - clears the field. The field is resizable and every change of sizes clears the field. 
-
-- *Timer* - starts the Life game until stopped. 
 
 The game was programmed as an array of labels. The mathematical model is based on subtraction. 
 The program sums number of cells that are placed in the rectangle, which sides are: 
 - distance from the cell to the right edge, and 
 - distance from the cell to the bottom edge of field.
 
-Rectangles are built for every cell and calculated. 
-Then, from the sum of the selected cell substracts sum of closest cells that are to the right and down from it.    
+Rectangles are built for every cell and calculated. Then, from the sum of the selected cell substracts sum of closest cells that are to the right and down from it.
+
+#### <a href='#12' id='12' class='anchor' aria-hidden='true'>12. Small library database</a>
+
+
+<img src="/Screenshots/12.PNG?raw=true" width="240"/>
+
+
+
+It is a small library database that serializes data to a files:
+
+- add information to the database:
+  
+  - author's name;
+  
+  - name of the book/artickle;
+  
+  - year of publication;
+  
+  - publishing house
+;
+  - form of publication (paper/electronic)
+
+- delete information from the database (after the first letter of the name);
+
+- record and store the data;
+
+- read and view saved information from the file;
+
+- add new data to the stored file;
+
+- convenient and user friendly interface. 
+
+<img src="/Library/algorithm01.png?raw=true" width="120"/>
+
+ <img src="/Library/algorithm02.png?raw=true" width="120"/>
+
+ <img src="/Library/algorithm03.png?raw=true" width="120"/>
+
