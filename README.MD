@@ -174,16 +174,6 @@ It is a small library database that serializes data to a files:
 
 - add information to the database:
   
-  - author's name;
-  
-  - name of the book/artickle;
-  
-  - year of publication;
-  
-  - publishing house
-;
-  - form of publication (paper/electronic)
-
 - delete information from the database (after the first letter of the name);
 
 - record and store the data;
@@ -194,13 +184,8 @@ It is a small library database that serializes data to a files:
 
 - convenient and user friendly interface. 
 
-![alt-text-1](/Library/algorithm01.png "Main") ![alt-text-2](/Library/algorithm02.png "Delete") ![alt-text-2](/Library/algorithm03.png "Add")
-
-------
-
-<img src="/Library/algorithm01.png?raw=true" width="120"/>
-
- <img src="/Library/algorithm02.png?raw=true" width="120"/>
-
- <img src="/Library/algorithm03.png?raw=true" width="120"/>
-
+<p float="left">
+  <img src="/Library/algorithm01.png" width="120" />
+  <img src="/Library/algorithm01.png" width="120" /> 
+  <img src="/Library/algorithm01.png" width="120" />
+</p>
