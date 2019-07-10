@@ -186,6 +186,6 @@ It is a small library database that serializes data to a files:
 
 <p float="left">
   <img src="/Library/algorithm01.png" width="120" />
-  <img src="/Library/algorithm01.png" width="120" /> 
-  <img src="/Library/algorithm01.png" width="120" />
+  <img src="/Library/algorithm02.png" width="120" /> 
+  <img src="/Library/algorithm03.png" width="120" />
 </p>
