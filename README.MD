@@ -11,7 +11,8 @@
   07 [Simple NotePad. *WPF/SQL connection*  ](#07)
   08 [PinPong, The Game  ](#08)
   09 [Archivator. *IO, binary*  ](#09)
-  10 [Web Srapper. *Regular Expressions*  *In Developing* ](#10)<br/>
+  10 [Web Srapper. *Regular Expressions*  *In Developing now* ](#10)
+  11 [Game of Life  ](#11)<br/>
 
 
 
@@ -143,7 +144,7 @@ A simple web-scrapper. It get IT jobs from Finn.no HTML page.
 
 
 
-#### <a href='#11' id='11' class='anchor' aria-hidden='true'>11. Game of Life, The Game*</a>
+#### <a href='#11' id='11' class='anchor' aria-hidden='true'>11. Game of Life</a>
 
 
 <img src="/Screenshots/11.PNG?raw=true" width="240"/>
