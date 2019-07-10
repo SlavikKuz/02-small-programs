@@ -194,6 +194,10 @@ It is a small library database that serializes data to a files:
 
 - convenient and user friendly interface. 
 
+![alt-text-1](/Library/algorithm01.png "Main") ![alt-text-2](/Library/algorithm02.png "Delete") ![alt-text-2](/Library/algorithm03.png "Add")
+
+------
+
 <img src="/Library/algorithm01.png?raw=true" width="120"/>
 
  <img src="/Library/algorithm02.png?raw=true" width="120"/>
